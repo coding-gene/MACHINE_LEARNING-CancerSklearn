@@ -9,6 +9,8 @@ seaborn = "==0.11.2"
 matplotlib = "==3.5.1"
 scikit-learn = "==1.0.2"
 numpy = "==1.22.0"
+mlxtend = "==0.19.0"
+openpyxl = "*"
 
 [dev-packages]
 
