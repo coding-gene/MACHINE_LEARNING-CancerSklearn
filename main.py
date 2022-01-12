@@ -1,5 +1,5 @@
 from logic.mlAlgorithms import MlAlgorithms
-from logic.plots import Plots
+from logic import plots
 import pandas as pd
 import logging
 import time
@@ -38,7 +38,6 @@ try:
 
     df['diagnosis'] = df['diagnosis'].map({'M': 1, 'B': 0})
 
-    plots = Plots()
     plots.count_plot(df=df)
     plots.scatter_plot(df=df, category_mean=category_mean)
     plots.correlation_plot(df=df, category_mean=category_mean)
